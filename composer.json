@@ -1,5 +1,5 @@
 {
-    "name": "webhub/mtgateway",
+    "name": "webhubx/mtgateway",
     "version": "1.0.0",
     "description": "Multitenant Gateway",
     "type": "library",
@@ -10,9 +10,9 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Webhub\\Mtgateway\\": "src/",
-            "webhub\\Helpers\\": "src/Helpers",
-            "webhub\\Helpers\\Tests\\": "tests/helpers"
+            "Webhubx\\Mtgateway\\": "src/",
+            "webhubx\\Helpers\\": "src/Helpers",
+            "webhubx\\Helpers\\Tests\\": "tests/helpers"
         }
     },
     "authors": [

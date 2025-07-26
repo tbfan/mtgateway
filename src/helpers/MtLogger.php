@@ -1,5 +1,5 @@
 <?php
-namespace webhub\Helpers;
+namespace webhubx\Helpers;
 
 use Monolog\Logger;
 use Monolog\Level;
