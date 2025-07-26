@@ -9,7 +9,8 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Webhubx\\Mtgateway\\": "src/",
+            "Webhubx\\Mtgateway\\": "src",
+            "Webhubx\\Mtgateway\\Core\\": "src/core",
             "Webhubx\\Helpers\\": "src/helpers",
             "Webhubx\\Helpers\\Tests\\": "tests/helpers"
         }
