@@ -12,3 +12,7 @@ Special care needed to customize this code for your needs.
 
 ## Run Unit Tests
 `./vendor/bin/phpunit tests/helpers/MtLoggerTest.php`
+
+## Update library
+`git tag -a v1.0.x -m "v1.0.x release" `
+`git push --tags`
