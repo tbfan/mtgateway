@@ -1,0 +1,28 @@
+{
+    "name": "webhub/mtgateway",
+    "version": "1.0.0",
+    "description": "Multitenant Gateway",
+    "type": "library",
+    "require": {
+        "php":"^8.0",
+        "monolog/monolog": "3.9"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Webhub\\Mtgateway\\": "src/",
+            "webhub\\Helpers\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Web Hub",
+            "email": "webhub@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require-dev": {
+        "phpunit/phpunit": "^12.2",
+        "mikey179/vfsstream": "^1.6"
+    }
+}
