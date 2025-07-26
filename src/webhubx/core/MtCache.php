@@ -1,5 +1,5 @@
 <?php
-namespace webhubx\core;
+namespace Webhubx\Mtgateway;
 
 /**
  * MtCache is a wrapper class for caching mechanisms with configurable key prefix.

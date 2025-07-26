@@ -1,8 +1,8 @@
 <?php
-namespace webhubx\Helpers\Tests;
+namespace Webhubx\Helpers\Tests;
 
 use PHPUnit\Framework\TestCase;
-use webhubx\Helpers\MtLogger;
+use Webhubx\Helpers\MtLogger;
 use org\bovigo\vfs\vfsStream;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

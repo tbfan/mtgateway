@@ -10,8 +10,8 @@
     "autoload": {
         "psr-4": {
             "Webhubx\\Mtgateway\\": "src/",
-            "webhubx\\Helpers\\": "src/Helpers",
-            "webhubx\\Helpers\\Tests\\": "tests/helpers"
+            "Webhubx\\Helpers\\": "src/helpers",
+            "Webhubx\\Helpers\\Tests\\": "tests/helpers"
         }
     },
     "authors": [
