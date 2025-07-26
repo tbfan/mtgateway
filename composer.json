@@ -1,6 +1,5 @@
 {
     "name": "webhubx/mtgateway",
-    "version": "1.0.2",
     "description": "Multitenant Gateway",
     "type": "library",
     "require": {
