@@ -11,7 +11,8 @@
     "autoload": {
         "psr-4": {
             "Webhub\\Mtgateway\\": "src/",
-            "webhub\\Helpers\\Tests\\": "tests/"
+            "webhub\\Helpers\\": "src/Helpers",
+            "webhub\\Helpers\\Tests\\": "tests/helpers"
         }
     },
     "authors": [

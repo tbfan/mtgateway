@@ -9,3 +9,6 @@ Special care needed to customize this code for your needs.
 ## Installation: 
 
 `composer require webhub/mtgateway`
+
+## Run Unit Tests
+`./vendor/bin/phpunit tests/helpers/MtLoggerTest.php`
