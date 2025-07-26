@@ -21,7 +21,7 @@ class MtLogger
     private $logger;
 
     //create the logger instance with default parameters
-    private function __construct($log_path='/tmp', $logger_name='mt_logger', $max_files = 10)
+    private function __construct($log_path, $logger_name, $max_files)
     {
         $this->logger = new Logger($logger_name);
 
@@ -54,10 +54,10 @@ class MtLogger
         return $path . $name . '.log';
     }
 
-    public static function getInstance()
+    public static function getInstance($log_path='/tmp', $logger_name='mt_logger', $max_files = 10)
     {
         if (self::$instance === null) {
-            self::$instance = new self();
+            self::$instance = new self($log_path, $logger_name, $max_files);
         }
         return self::$instance;
     }
